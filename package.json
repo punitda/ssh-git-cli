@@ -1,0 +1,16 @@
+{
+  "name": "ssh-key-and-config-generator",
+  "version": "0.0.1",
+  "description": "Node CLI used to create ssh keys and config for github/gitlab/bitbucket accounts on MacOS",
+  "main": "lib/index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Punit Dama<punitdama@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
