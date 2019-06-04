@@ -10,7 +10,15 @@
   "dependencies": {
     "inquirer": "^6.3.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/punitda/ssh-key-and-config-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/punitda/ssh-key-and-config-generator/issues"
+  },
   "engines": {
     "node": ">=6.0.0"
-  }
+  },
+  "readmeFilename": "README.md"
 }
