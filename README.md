@@ -74,4 +74,4 @@ With this, the public key of ssh pair you just generated will be copied to your 
 
 ## License
 
-[MIT](https://github.com/punitda/git-ssh/blob/develop/LICENSE)
+[MIT](https://github.com/punitda/ssh-git/blob/develop/LICENSE)
