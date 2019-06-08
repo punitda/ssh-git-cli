@@ -1,18 +1,18 @@
-# git-ssh
+# ssh-git
 
 Generate and setup ssh keys and config for using multiple different Github/Gitlab/Bitbucket accounts using ssh without sweating over it 😅
 
 ## How to install and run
 
 ```sh
-npm install -g git-ssh (Installing globally)
-git-ssh --generate (Running it)
+npm install -g ssh-git (Installing globally)
+ssh-git --generate (Running it)
 ```
 
 or
 
 ```
-npx git-ssh --generate (If you have npm 5.2+)(Recommended)
+npx ssh-git --generate (If you have npm 5.2+)(Recommended)
 ```
 
 ## How it works
