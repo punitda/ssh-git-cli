@@ -1,13 +1,17 @@
 {
-  "name": "ssh-key-and-config-generator",
-  "version": "0.0.2",
-  "description": "Node CLI used to create ssh keys and config for github/gitlab/bitbucket accounts on MacOS",
+  "name": "git-ssh",
+  "version": "0.0.1",
+  "description": "Node CLI used to generate and setup ssh keys for using multiple accounts github/gitlab/bitbucket accounts using ssh",
   "main": "lib/index.js",
   "scripts": {},
-  "keywords": [],
+  "keywords": [
+    "git",
+    "ssh"
+  ],
   "author": "Punit Dama<punitdama@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "commander": "^2.20.0",
     "inquirer": "^6.3.1"
   },
   "repository": {
