@@ -1,6 +1,6 @@
 {
   "name": "ssh-git",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Node CLI used to generate and setup ssh keys for using multiple accounts github/gitlab/bitbucket accounts using ssh",
   "scripts": {},
   "keywords": [
@@ -15,10 +15,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/punitda/ssh-key-and-config-generator.git"
+    "url": "https://github.com/punitda/ssh-git.git"
   },
   "bugs": {
-    "url": "https://github.com/punitda/ssh-key-and-config-generator/issues"
+    "url": "https://github.com/punitda/ssh-git/issues"
   },
   "engines": {
     "node": ">=6.0.0"
