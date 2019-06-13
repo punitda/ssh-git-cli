@@ -33,7 +33,11 @@ The CLI automates the above process by asking you couple of questions and based 
 Example:
 I'm setting up my new machine and need to setup ssh for all my 3 different accounts on Github, Gitlab and Bitbucket.
 
-Using this package, I can generate it in following steps
+Using this package, I can generate it in following steps.
+
+### Note:
+
+Steps mentioned below are for generating ssh key for single account at a time. You can follow this process any no. of times to connect to multiple different accounts on Github, Gitlab and Bitbucket on same machine.
 
 ```sh
 ssh-git --generate
@@ -43,7 +47,7 @@ You will be then prompted with following questions:
 
 ```
 #1:
-? Select hosting service from below for which you are creating ssh keys?
+? Please select hosting service account from below for which you are generating the ssh keys:
 > github
 > gitlab
 > bitbucket
@@ -51,26 +55,46 @@ You will be then prompted with following questions:
 Select anyone from the above.
 
 #2:
-? What is your username associated with above selected account? <Enter your username >
+? Please enter your username associated with above selected account for which you are generating ssh keys:
 
 Enter your username
 
 #3:
-? What is your email associated with above selected account ? <Enter your email id>
+? Please enter your email id associated with above selected account for which you are generating ssh keys:
 
 Enter your email id
+
+#4:
+? For additional protection of the ssh key that would be generated in next step, we need to password protect the key. Please enter strong passphrase to use to protect the key. Note: Remember the passphrase you will enter below because you will be asked to enter the same passphrase in one more step after it
+
+Enter passphrase for ssh key
+
 ```
 
-When you answer this questions, you will be prompted for passphrase few times to secure the ssh keys you are generating.
+When you answer this questions, your ssh key generation process would start.
 
-Once all of this is done you should see message in the console saying :
+After key is generated, it will be added to OSX keychain. For adding it to keychain, you will be prompted for passphrase for the ssh key. This is done so you don't have to remember and input your ssh key passphrase again and again when using it.
+
+Once everything is done. You should see the following output in your console.
+
+```
+ssh key and config generated successfully 🎉 and Public key has been copied to your Clipboard.
 
 
-> ssh key generated successfully 🎉.   
-ssh public key is copied to your clipboard. Please add this key by logging into your Github/Bitbucket/Gitlab account and going into account settings 
+Few steps you need to follow next to start using this ssh key:
 
-With this, the public key of ssh pair you just generated will be copied to your clipboard. Go to your account settings of Github/Gitlab/Bitbucket and go to section which says SSH/GPG keys and go ahead and add the copied key to it to complete the process.
+1. Login into your bitbucket account.
+2. Go to Account Settings/Developer Settings page.
+3. Look for ssh key in settings and add the key which is copied to your clipboard
+
+Once you've added the key to your <bitbucket/github/gitlab.com> account by following the above steps, to start using this key when communicating with repository you need to update your repository's remote url and replace <bitbucket/github/gitlab.com> with <bitbucket/github/gitlab.com-<username>>
+
+```
 
 ## License
 
 [MIT](https://github.com/punitda/ssh-git/blob/develop/LICENSE)
+
+```
+
+```
