@@ -1,6 +1,6 @@
 {
   "name": "ssh-git",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Node CLI used to generate and setup ssh keys for using multiple accounts github/gitlab/bitbucket accounts using ssh",
   "scripts": {},
   "keywords": [
@@ -10,6 +10,7 @@
   "author": "Punit Dama<punitdama@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^2.4.2",
     "commander": "^2.20.0",
     "inquirer": "^6.3.1"
   },
