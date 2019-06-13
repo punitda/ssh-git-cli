@@ -94,7 +94,3 @@ Once you've added the key to your <bitbucket/github/gitlab.com> account by follo
 ## License
 
 [MIT](https://github.com/punitda/ssh-git/blob/develop/LICENSE)
-
-```
-
-```
