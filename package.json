@@ -2,7 +2,9 @@
   "name": "ssh-git",
   "version": "0.0.6",
   "description": "Node CLI used to generate and setup ssh keys for using multiple accounts github/gitlab/bitbucket accounts using ssh",
-  "scripts": {},
+  "scripts": {
+    "start": "node ./lib/index.js --generate"
+  },
   "keywords": [
     "git",
     "ssh"
