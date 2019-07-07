@@ -1,6 +1,11 @@
 # ssh-git
 
-Generate and setup ssh keys and config for using multiple different Github/Gitlab/Bitbucket accounts using ssh without sweating over it 😅
+Generate and setup ssh keys and config for using multiple different Github/Gitlab/Bitbucket accounts on same machine using ssh without sweating over it 😅
+
+### Note :
+
+It works only in **MacOS** and **Linux**(though not thoroughly tested on Linux. Please file bugs if you find any issues) for now.
+Support for windows will be added soon in next releases.
 
 ## How to install and run
 
