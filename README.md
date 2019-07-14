@@ -80,7 +80,7 @@ When you answer this questions, your ssh key generation process would start.
 
 After key is generated, it will be added to OSX keychain. For adding it to keychain, you will be prompted for passphrase for the ssh key. This is done so you don't have to remember and input your ssh key passphrase again and again when using it.
 
-Once everything is done. You should see the following output in your console.
+Once everything is done. You should see the following output in your console. Just follow few steps suggested in output and you should be good to use generated ssh key to communicate with our repo :)
 
 ```
 ssh key and config generated successfully 🎉 and Public key has been copied to your Clipboard.
@@ -88,7 +88,7 @@ ssh key and config generated successfully 🎉 and Public key has been copied to
 
 Few steps you need to follow next to start using this ssh key:
 
-1. Login into your bitbucket account.
+1. Login into your <bitbucket/github/gitlab> account.
 2. Go to Account Settings/Developer Settings page.
 3. Look for ssh key in settings and add the key which is copied to your clipboard
 
