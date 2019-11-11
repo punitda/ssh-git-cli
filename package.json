@@ -18,10 +18,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/punitda/ssh-git.git"
+    "url": "https://github.com/punitda/ssh-git-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/punitda/ssh-git/issues"
+    "url": "https://github.com/punitda/ssh-git-cli/issues"
   },
   "engines": {
     "node": ">=6.0.0"
